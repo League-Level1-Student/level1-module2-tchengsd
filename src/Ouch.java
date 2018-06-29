@@ -8,6 +8,7 @@ public class Ouch implements KeyListener {
 		JFrame bob = new JFrame();
 		bob.addKeyListener(this);
 		bob.setVisible(true);
+		bob.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
 	public static void main(String[] args) {
